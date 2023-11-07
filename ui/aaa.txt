@@ -1,0 +1,9 @@
+if(isset($_POST['delete'])){
+                        $query = "DELETE FROM `earnings` WHERE id = '$delId'";
+                            $result = $conn->query($query);
+                            if($result){
+                                $_SESSION['message'] = "Record Deleted Successfully";
+                            }else{
+                                $_SESSION['message'] = "Unable to Deleted Record!";
+                            }
+                        }

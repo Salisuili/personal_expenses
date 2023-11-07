@@ -1,0 +1,140 @@
+.body{
+    background-color: lightblue;
+}
+.cards{
+  float: left;
+  width: 20%;
+  margin: 2%;
+}
+
+.prof-card{
+  float: left;
+  width: 20%
+}
+.e-container{
+  margin-top:5%;
+  margin-left:6%;
+}
+.p{
+  margin: 0px;
+  font-size: 0.1in;
+}
+.prof-container{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 7%;
+    margin-right: 15%;
+    padding: 5px;
+}
+.container{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-right: 15%;
+    padding: 5px;
+}
+
+.card{
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:0px;
+    margin-top:0px;
+    height:250px; 
+    width:45%;
+}
+.btn{
+    width:50%;
+    margin-bottom:0px;
+}
+
+.r-text{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.error{
+  margin-top:0px;
+  margin-bottom:0px;
+  font-size: 0.1in;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  .logbtn{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 16px;
+    text-align: left;
+    width:100%;
+  }
+ 
+  .a{
+    padding: 14px 16px;
+  }
+  .adrop{ 
+      padding-right:16px;
+      padding-top:5px;
+  }
+  .spendwise{
+      height: 35px;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(0, 89, 200);
+  }
+  .active{
+    background-color: rgb(0, 89, 200);
+  }
+  
+  li#dropdown2 {
+    float: right;
+    margin-right:10px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(0, 89, 255);}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .pic{
+      width: 40px;
+      height: 40px;
+      padding: 0px;
+      margin: 0px;
+  }
